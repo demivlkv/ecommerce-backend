@@ -70,10 +70,11 @@ router.put('/:id', (req, res) => {
     }
   })
     .then(dbTagData => {
-      if (!dbTagData) {
+      if (!dbTagData[0]) {
         res.status(404).json({ message: 'No category found with this id' });
         return;
       }
+      res.json(dbTagData);
     })
     .catch(err => {
       console.log(err);
