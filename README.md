@@ -21,17 +21,17 @@ npm install sequelize mysql2 dotenv
 ```
 
 ## Usage
-1. Make sure that you are in the root directory in order for this application to run successfully. Then start up MySQL by entering the following:
+1. Make sure that you are in the root directory in order for this application to run successfully. Start up MySQL by entering the following:
 ```
 mysql -u root -p
 ```
-2. Enter your MySQL password, and then run `SOURCE db/schema.sql;` to create the database. Then exit MySQL by entering `quit;` into the command line.
-3. Initialize the application by running this command in terminal:
+2. Enter your MySQL password, and then run `SOURCE db/schema.sql;` to create the database. Then exit MySQL by entering `quit;` in terminal.
+3. Initialize the application by running this command:
 ```
 node server.js
 ```
-4. Upon a successful connection, run `npm run seed` to seed data to your database.
-5. Open an API Client of your choice to create, read, update, & delete data in the database! (i.e. [Insomnia](https://insomnia.rest/), [Postman](https://www.postman.com/))
+4. Upon a successful connection, run `npm run seed` to seed data to the database.
+5. Open an API Client of your choice to create, update, & delete data in the database! (i.e. [Insomnia](https://insomnia.rest/), [Postman](https://www.postman.com/))
 
 ### Video Walkthrough
 [https://youtu.be/0hGVxvQcD_c](https://youtu.be/0hGVxvQcD_c).
