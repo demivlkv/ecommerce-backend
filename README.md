@@ -13,7 +13,7 @@ Object-relational mapping (ORM), is a technique that allows developers to conver
 - [dotenv](https://github.com/motdotla/dotenv#readme)
 
 ## Installation
-1. To install this application, `git clone` this repository, or download the `.zip` file in the dropdown after clicking the green ‘Code’ button at the top of this repository—as long as it is in your local branch.
+1. To install this application, `git clone` this repository, or download the `.zip` file in the dropdown after clicking the ‘Code’ button at the top of this repository—as long as it is in your local branch.
 2. Ensure Node.js is installed in the code editor of your choice.
 3. Install all of the dependencies by entering the following command in terminal:
 ```
